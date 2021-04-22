@@ -305,6 +305,7 @@
             <h2 id="hexo使用theme出现”-‘-extends’-‘-layout-swig‘-‘-import-‘‘-macro-post-swig‘-as-post-template-’-”问题"><a href="#hexo使用theme出现”-‘-extends’-‘-layout-swig‘-‘-import-‘‘-macro-post-swig‘-as-post-template-’-”问题" class="headerlink" title="hexo使用theme出现”{‘% extends’ ‘_layout.swig‘ %} {‘% import ‘‘_macro/post.swig‘ as post_template %’}”问题."></a>hexo使用theme出现”{‘% extends’ ‘_layout.swig‘ %} {‘% import ‘‘_macro/post.swig‘ as post_template %’}”问题.</h2><p>原因：hexo在5.0之后把swig删除了，需要自己手动安装</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm i hexo-renderer-swig</span><br></pre></td></tr></table></figure>
 <h2 id="博客空白，什么都没有"><a href="#博客空白，什么都没有" class="headerlink" title="博客空白，什么都没有"></a>博客空白，什么都没有</h2><p>删除现有next文件夹，把原始next压缩包重新放到themes文件夹里，解决</p>
+<h2 id="写hexo博客时报错Template-render-error-unknown-path"><a href="#写hexo博客时报错Template-render-error-unknown-path" class="headerlink" title="写hexo博客时报错Template render error: (unknown path)"></a>写hexo博客时报错Template render error: (unknown path)</h2><p>hexo转义时候发生的错误，你文章中可能出现了两个大括号，或者一个大括号里面由两个百分号。这种hexo无法转义的字符，将出现的代码，用引号’’进行注释下就可以，第一个bug就是如此解决的。</p>
 
           
         
