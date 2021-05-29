@@ -332,7 +332,8 @@
       
         
           
-            <p>指数随机图模型是一类针对关系型数据建模的方法，研究的是什么因素导致结果因变量矩阵是否发生关系，即因变量是一类节点间是否存在关系的矩阵型数据。</p>
+            <p>tags: [复杂网络，指数随机图]</p>
+<p>指数随机图模型是一类针对关系型数据建模的方法，研究的是什么因素导致结果因变量矩阵是否发生关系，即因变量是一类节点间是否存在关系的矩阵型数据。</p>
 <h1 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h1><h2 id="01"><a href="#01" class="headerlink" title="01"></a>01</h2><p>和很多人一样，我刚接触这个模型，一点也不懂，只是单纯地觉得这个模型值得研究一下。带着这样的感觉，我开始了指数随机图模型的学习之旅。</p>
 <p>一开始，我主要是看论文，从中文期刊到英文期刊，慢慢对这个方法的研究范式有了一定的了解，比如模型的一些特定术语（内生结构项）。但是想要细致地了解模型内部的东西以及自己上手操作，又是另外一回事。论文本身并不报告过程，通常都是直截了当地出现图表。</p>
 <p>所以，我开始查阅合适的书籍，从头来。这里主要介绍两本。一本是Harris 的《指数随机图模型导论》，另外一本是Lusher 的《社会网络指数随机图模型—理论、方法与应用》，两本都有中译版本。相比较而言，我更喜欢第一本。里面有R语言代码，边学边敲代码，不至于过于枯燥。</p>
@@ -341,7 +342,11 @@
 <p>在这之后，我陆陆续续看了一系列论文、R语言官网的help文档等，其中包括吴钢老师的博士论文《人文关系网络对国际贸易网络的影响机制及效应研究》，读完这篇博士论文，我也深受启发，就这样我开始对这个模型有了一定的了解，并不断地丰富学习框架，例如从ERGM到TERGM等。</p>
 <h2 id="02"><a href="#02" class="headerlink" title="02"></a>02</h2><p>总结：<br>Step1：阅读期刊论文，对指数随机图模型有大致地了解<br>Step2：结合R语言，阅读Harris的《指数随机图模型导论》<br>Step3：阅读Pol的文章以及R语言帮助文档，对R语言使用有更深的理解<br>Step4：阅读论文（期刊论文、博士论文），并结合自己数据进行研究</p>
 <h2 id="03"><a href="#03" class="headerlink" title="03"></a>03</h2><p>参考文献及网站链接：<br>[1] Harris J K. An introduction to exponential random graph modeling[M]. Sage, 2013.<br>[2] Lusher D, Koskinen J, Robins G. Exponential Random Graph Models for Social Networks: theory, methods and applicatioms[M]. Cambridge: Cambridge University Press, 2013.<br>[3] Pol J. Introduction to Network Modeling Using Exponential Random Graph Models (ERGM): Theory and an Application Using R-Project[J]. Post-Print, 2018.<br>[4] 吴钢. 人文关系网络对国际贸易网络的影响机制及效应研究[D]. 湖南大学.<br>[5] <a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/CRAN/">https://mirrors.tuna.tsinghua.edu.cn/CRAN/</a> 上的一系列R包，包括network、ergm、statnet等<br>[6] <a target="_blank" rel="noopener" href="http://statnet.org/Workshops/tergm_tutorial.html">http://statnet.org/Workshops/tergm_tutorial.html</a></p>
-<h1 id="第二篇文章"><a href="#第二篇文章" class="headerlink" title="第二篇文章"></a>第二篇文章</h1>
+<h1 id="第二篇文章"><a href="#第二篇文章" class="headerlink" title="第二篇文章"></a>第二篇文章</h1><p>本期介绍指数随机图模型在R语言的实现过程。事先需要对指数随机图模型有一个基本的了解，例如模型中的三大类变量以及常见的网络内生项的R语言表示等。这里仅仅是模型的演示，模型好坏仅供参考！</p>
+<p>参考文献：</p>
+<p>[1] Harris J K. An introduction to exponential random graph modeling[M]. Sage, 2013.</p>
+<p>[2] Pol J. Introduction to Network Modeling Using Exponential Random Graph Models (ERGM): Theory and an Application Using R-Project[J]. Post-Print, 2018.</p>
+
           
         
       
